@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ .logo img{
+    width:128px;
+    height:50px;
+    color:#007185;
+    font-size: 14px;
+    margin:1px;
+    padding:1px 8px 0px 6px;
+}
+.delivery1 {
+    width:186px;
+    height:14px;
+    color:#cccccc;
+    font-size: 12px;
+}
+.delivery2 dei{
+    width:186px;
+    height:16px;
+    color:#ffffff;
+    font-size: 14px;
+    padding:0px 0px 1px;
+}
+.delivery21 {
+    width:15px;
+    height:18px;
+    margin:8px 0px 0px;
+}
+.flag{
+    width:55px;
+    height:33px;
+    color:#d6d6d6;
+}
+.flag1 img{
+    width:21px;
+    height:16px;
+    margin:0px 2px 1px 0px;
+}
+.flag21{
+    width:18px;
+    height:15px;
+    color:#ffffff;
+    font-size: 14px;
+
+}
+.flag22{
+    width:8px;
+}
+.sign1{
+    width:70px;
+    height:14px;
+    color:#ffffff;
+    font-size: 12px;
+
+}
+.sign2{
+    width:113px;
+    height: 15px;
+    color:#ffffff;
+    font-size: 14px;
+}
+.return{
+    margin-bottom: 10px;
+}
+.return1{
+    width:58px;
+    height:14px;
+    color:#ffffff;
+    font-size: 12px;
+    margin: 9px 0px 0px;
+}
+.return2{
+    width:58px;
+    height:15px;
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.cart2{
+    width:28px;
+    height:15px;
+    color:#ffffff;
+    font-size:14px;
+    margin-top: 14px;
+}
+.container1{
+    border:none;
+}
+.container1:hover{
+    border:1px solid white;
+}
+/* navbar styling */
+.bar11{
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+
+    .logo img {
+        width: 100px;
+        height: auto;
+        font-size: 12px;
+    }
+
+    .delivery1 {
+        width: auto;
+        font-size: 10px;
+    }
+
+    .delivery2 dei {
+        font-size: 12px;
+    }
+
+    .flag {
+        width: 40px;
+        height: auto;
+    }
+
+    .flag1 img {
+        width: 16px;
+        height: auto;
+    }
+
+    .flag21 {
+        font-size: 12px;
+    }
+
+    .sign1 {
+        font-size: 10px;
+    }
+
+    .sign2 {
+        font-size: 12px;
+    }
+
+    .return1 {
+        font-size: 10px;
+    }
+
+    .return2 {
+        font-size: 12px;
+    }
+
+    .cart2 {
+        font-size: 12px;
+    }
+
+    .bar11 {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    /* Further adjustments for smaller screens */
+
+    .logo img {
+        width: 80px;
+        font-size: 10px;
+    }
+
+    .delivery1,
+    .delivery2 dei,
+    .sign1,
+    .return1,
+    .return2,
+    .cart2,
+    .flag21 {
+        font-size: 10px;
+    }
+
+    .flag {
+        width: 30px;
+    }
+
+    .flag1 img {
+        width: 14px;
+    }
+
+    .bar11 {
+        margin-left: 5px;
+    }
+}
+
